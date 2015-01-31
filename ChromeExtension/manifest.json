@@ -1,0 +1,17 @@
+{
+   "browser_action": {
+    "default_icon": "icon.jpeg",
+    "default_popup": "background.html"
+  },
+   "description": "Chrome Test For Logging In",
+   "name": "Chromer",
+   "permissions": [
+    "activeTab",
+    "tabs",
+    "http://localhost:8080/",
+    "http://netdna.bootstrapcdn.com/"
+  ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "manifest_version": 2,
+   "version": "1.0.0"
+}
